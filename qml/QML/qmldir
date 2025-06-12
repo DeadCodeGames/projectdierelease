@@ -1,5 +1,6 @@
 module QML
 designersupported
+static
 system
 typeinfo plugins.qmltypes
 prefer :/qt-project.org/imports/QML/

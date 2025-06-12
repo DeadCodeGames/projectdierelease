@@ -18,4 +18,5 @@ ProjectDie/
 appProjectDie_autogen/
 appprojectdie_qmltyperegistrations.cpp
 libappProjectDie.dll.a
-game_saved.db
+game_saves.db
+release.zip

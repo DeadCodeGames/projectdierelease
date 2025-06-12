@@ -4,6 +4,7 @@ plugin qtquickcontrols2windowsstyleplugin
 classname QtQuickControls2WindowsStylePlugin
 typeinfo plugins.qmltypes
 import QtQuick.Controls.Fusion auto
+depends QtQuick
 prefer :/qt-project.org/imports/QtQuick/Controls/Windows/
 ApplicationWindow 6.0 ApplicationWindow.qml
 ApplicationWindow 2.0 ApplicationWindow.qml

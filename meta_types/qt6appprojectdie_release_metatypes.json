@@ -1,2 +1,82 @@
 [
+    {
+        "classes": [
+            {
+                "className": "GameListModel",
+                "lineNumber": 20,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "loadGames",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "clearGames",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "whiteName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "blackName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "whiteElo",
+                                "type": "int"
+                            },
+                            {
+                                "name": "blackElo",
+                                "type": "int"
+                            },
+                            {
+                                "name": "gameMode",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "timeMode",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "moves",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "startTime",
+                                "type": "QDateTime"
+                            },
+                            {
+                                "name": "endTime",
+                                "type": "QDateTime"
+                            },
+                            {
+                                "name": "times",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "saveGame",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "GameListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "gamedbmodel.h",
+        "outputRevision": 69
+    }
 ]
