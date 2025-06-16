@@ -2,6 +2,7 @@
 .ninja_deps
 build.ninja
 CMakeCache.txt
+CMakeCache.txt.prev
 Makefile
 cmake_install.cmake
 qtcsettings.cmake
@@ -20,3 +21,6 @@ appprojectdie_qmltyperegistrations.cpp
 libappProjectDie.dll.a
 game_saves.db
 release.zip
+patch.zip
+patch/
+diff

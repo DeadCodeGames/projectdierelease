@@ -3,17 +3,17 @@
         "classes": [
             {
                 "className": "GameListModel",
-                "lineNumber": 20,
+                "lineNumber": 21,
                 "methods": [
                     {
                         "access": "public",
-                        "index": 0,
+                        "index": 1,
                         "name": "loadGames",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 1,
+                        "index": 2,
                         "name": "clearGames",
                         "returnType": "void"
                     },
@@ -59,15 +59,74 @@
                             {
                                 "name": "times",
                                 "type": "QString"
+                            },
+                            {
+                                "name": "imported",
+                                "type": "bool"
                             }
                         ],
-                        "index": 2,
+                        "index": 3,
                         "name": "saveGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "param",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "sqlCommand",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "exportTextFile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "importTextFile",
                         "returnType": "void"
                     }
                 ],
                 "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "importedSelected",
+                        "notify": "importedSelectedChanged",
+                        "read": "getImportedSelected",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setImportedSelected"
+                    }
+                ],
                 "qualifiedClassName": "GameListModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "importedSelectedChanged",
+                        "returnType": "void"
+                    }
+                ],
                 "superClasses": [
                     {
                         "access": "public",
@@ -77,6 +136,6 @@
             }
         ],
         "inputFile": "gamedbmodel.h",
-        "outputRevision": 69
+        "outputRevision": 68
     }
 ]
